@@ -7,6 +7,7 @@ body{
     position: relative;
     top: 60px;
     font-Family:"Inter", sans-serif;
+    height: 80vh;
    
 
 }
@@ -14,9 +15,9 @@ body{
     background-color: hsl(0, 0%, 12%);  
     border: 2px solid hsl(0, 0%, 12%); 
     width: 350px;
-    height: 530px;  
+    height: 480px;  
     border-radius:10px ;
-    
+    bottom: 60%;        
 }
 
 
@@ -39,22 +40,46 @@ h1{
 h5{
     text-align: center;
     color: hsl(75, 94%, 57%);
+    position: relative;
+    top: 25px;
+    font-size: 12px;
     
 }
 p{
     color: black;
     color: hsl(0, 0%, 100%);
+    position: relative;
+    top: 20px;
+    font-size: 12px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
-button{
-    width: 250px;
-    padding: 10px;
+.button{
+    width: 300px;
+    padding: 15px 0 0 25px;
     border-radius: 8px;
+    display: grid;
+    gap: 15px;
+    margin-top: 20px;
+     
+}
+
+.btn{
      background-color: hsl(0, 0%, 20%);
      color: white;
-    
+      padding: 10px 70px;
+      border-radius: 8px;
+      width: 100%;
+      border: none;
+  
 }
-button:hover{
+    
+.btn:hover{
     background-color:hsl(75, 94%, 57%) ;
     color: black;
+    cursor: pointer;
 }
+
+
 
